@@ -312,8 +312,9 @@ hr {
 }
 
 .project-card {
+  position: relative;
   background: var(--primary-color);
-  padding: 20px;
+  padding: 20px 20px 50px 20px;
   border-radius: 16px;
   box-shadow: 0 5px 15px var(--shadow-color);
   transition: 0.3s ease;
@@ -361,6 +362,11 @@ hr {
 }
 
 .btns {
+  position: absolute;
+  bottom:20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   gap: 10px;
