@@ -143,7 +143,10 @@ header {
   padding: 10px 10px;
   cursor: pointer;
 }
-
+a{
+  text-decoration: none;
+  color: #000;
+}
 .btn-home2 {
   background-color: transparent;
   border: 2px solid var(--secondary-color);
